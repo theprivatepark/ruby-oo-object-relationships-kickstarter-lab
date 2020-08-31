@@ -5,7 +5,6 @@ class Backer
 
     def initialize(name) #john
         @name = name
-        @all = [] #SHOULD NOT EXIST
     end
 
     def back_project(project) #Backer.back_project("blah blah blah")
